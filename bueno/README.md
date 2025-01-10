@@ -1,1 +1,1 @@
-This project is incomplete and poorly coded, but I did try really hard.
+This projects aims was to develop a DNA editor, where a user could upload a FASTA file, allocate  regions of DNA as a specific function (e.g.: operator, terminator, CDS), then allocate it within SBOL documentation.
