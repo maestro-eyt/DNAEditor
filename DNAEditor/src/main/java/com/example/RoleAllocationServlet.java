@@ -97,7 +97,7 @@ public class RoleAllocationServlet extends HttpServlet {
 
             
         	
-            File outputFile = new File("/Users/joseph/eclipse-workspace/bueno/src/main/webapp/sbolfile.xml"); //THIS WOULD BE BETTER SAVED ON AN EXTERNAL HARDRIVE
+            File outputFile = new File("/Users/joseph/eclipse-workspace/DNAEditor/src/main/webapp/sbolfile.xml"); //THIS WOULD BE BETTER SAVED ON AN EXTERNAL HARDRIVE
             //BUT FOR THE PURUPOSE OF KEEPING EVERYTHING TOGETHER IT IS HERE. ABOVE ONLY WORKS IF THE FOLDERS ARE "REFRESHED"
             
             SBOLIO.write(doc, outputFile, SBOLFormat.RDFXML);
